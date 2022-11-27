@@ -35,7 +35,7 @@ RUN pip install catalogue
 
 RUN pip install celery
 
-RUN pip install certifiRUN
+#RUN pip install certifiRUN
 
 
 RUN pip install cffi
@@ -60,7 +60,7 @@ RUN pip install cymem
 
 RUN pip install Deprecated
 
-RUN pip install distlibRUN
+#RUN pip install distlibRUN
 
 
 RUN pip install Django
@@ -81,8 +81,8 @@ RUN pip install django-filter
 
 RUN pip install django-timezone-field
 
-RUN en-core-web-sm @ https://github.com/explosion/
-spacy-models/releases/download/en_core_web_sm-3.4.0/en_core_web_sm-3.4.0-py3-none-any.whl
+#RUN en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.4.0/en_core_web_sm-3.4.0-py3-none-any.whl
+
 RUN pip install filelock
 
 RUN pip install idna
